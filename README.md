@@ -13,6 +13,13 @@ ZigbeeDemoTAEE2024
 ├── recibo_bmi160
 ├── LICENSE
 ``````
+Both folders implement a custom ZigBee cluster to communicate each other the updates of a BMI 160 accelerometer data. <br>
+Project *envio_bmi160* interfaces with the sensor whereas *recibo_bmi160* displays on a LCD screen the gathered data. 
+
+Hardware used: 2x Nordic Semiconductors nRF5340 DK + 1 BMI 160 + LCD. <br>
+Software version nRFConnect SDK v.2.4.0.
+
+
 ## Credits
 
 This software was actively developed and contributed by:
